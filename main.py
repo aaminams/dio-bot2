@@ -3,7 +3,7 @@ import os
 from discord.ext import commands
 from keep_alive import keep_alive
 # Setup the bot
-TOKEN = os.getenv("DISCORD_BOT_TOKEN")  # Get token from environment variable
+TOKEN = "MTM1NjYxNjM0Njc0NTQzODQzOQ.GLDVLY.VXGcBQoYGPMFIpCxuObMTnfwDT4KCiHzkZ35l8"  # Get token from environment variable
 intents = discord.Intents.default()
 intents.messages = True  # This ensures the bot can read messages
 intents.message_content = True  # This is the key fix!
