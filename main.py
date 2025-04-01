@@ -1,7 +1,6 @@
 import discord
 import os
 from discord.ext import commands
-from keep_alive import keep_alive
 # Setup the bot
 TOKEN = "MTM1NjYxNjM0Njc0NTQzODQzOQ.GLDVLY.VXGcBQoYGPMFIpCxuObMTnfwDT4KCiHzkZ35l8"  # Get token from environment variable
 intents = discord.Intents.default()
